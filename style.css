@@ -1,0 +1,27 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.navcontainer {
+        max-width: 1500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+
+}
+
+.navsec1 img {
+        
+}
+
+.navsec2 nav ul {
+        list-style: none;
+        font-family: "Arimo", sans-serif;
+        font-size: 12px;
+        display: flex;
+        gap: 20px;
+        color: #575757;
+}
