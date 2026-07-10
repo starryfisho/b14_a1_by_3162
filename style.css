@@ -4,24 +4,40 @@
         padding: 0;
 }
 
-.navcontainer {
-        max-width: 1500px;
+#navcontainer {
+        padding: 20px 50px;
+        max-width: 1000px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: auto;
+        margin: 0 auto;
 
 }
 
-.navsec1 img {
-        
-}
-
-.navsec2 nav ul {
+#navsec2 nav ul {
         list-style: none;
         font-family: "Arimo", sans-serif;
         font-size: 12px;
+        line-height: 1.5;
         display: flex;
         gap: 20px;
         color: #575757;
+}
+
+.commonbtnstyle {
+        color: white;
+        background-color: #1D4ED8;
+        padding: 12px 40px;
+        border: none;
+        border-radius: 8px;
+        letter-spacing: 0.5px;
+        line-height: 18px;
+        font-family: "Inter", sans-serif;
+        cursor: pointer;
+}
+
+#herosection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
