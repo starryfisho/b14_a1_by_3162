@@ -2,11 +2,12 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+        font-family: "Inter", sans-serif;
 }
 
 #navcontainer {
-        padding: 20px 50px;
-        max-width: 1000px;
+        padding: 20px 60px;
+        max-width: 1550px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -32,12 +33,42 @@
         border-radius: 8px;
         letter-spacing: 0.5px;
         line-height: 18px;
-        font-family: "Inter", sans-serif;
         cursor: pointer;
 }
 
 #herosection {
+        margin: 0 auto;
+        max-width: 1550px;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
+}
+
+#herosection .textsection {
+        z-index: 3;
+        position: absolute;
+        color: white;
+}
+
+#herosection .textsection h1 {
+        font-size: 100px;
+        margin-top: -250px;
+}
+
+#herosection .textsection pre {
+        font-size: 24px;
+
+}
+
+#herosection .overlay {
+        position: absolute;
+        z-index: 2;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.486);
+}
+
+#herosection img {
+        width: 100%;
+        height: auto;
 }
