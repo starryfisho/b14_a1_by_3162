@@ -10,6 +10,8 @@
         margin: auto;
 }
 
+/*-------Navbar---------*/
+
 header {
         display: flex;
         align-items: center;
@@ -25,7 +27,9 @@ header nav ul {
         gap: 20px;
 }
 
-header nav ul li a {
+header nav ul li a,
+.jobtitles,
+#sec3 p {
         text-decoration: none;
         color: #575757;
         font-size: 12px;
@@ -38,21 +42,27 @@ header nav ul li a {
         padding: 10px 20px;
         border-radius: 8px;
         letter-spacing: 1.1px;
+        z-index: 3;
+        cursor: pointer;
 }
+
+/*---------Hero Section------------*/
 
 #hero {
         height: 100vh;
         position: relative;
+        margin-bottom: 60px;
 }
 
 #hero .imgcontainer img {
         height: 100%;
         width: 100%;
         position: absolute;
+        object-fit: cover;
         z-index: 1;
 }
 
-#hero .overlay{
+#hero .overlay {
         background-color: rgba(0, 0, 0, 0.464);
         position: absolute;
         height: 100%;
@@ -74,11 +84,78 @@ header nav ul li a {
 
 #hero .text h1 {
         font-size: 90px;
-
+        font-weight: bold;
 }
-#hero .text ul{
+
+#hero .text ul {
         list-style: none;
         display: flex;
         flex-direction: column;
         align-items: center;
+}
+
+#btn2 {
+        position: absolute;
+        bottom: 100px;
+        left: 650px;
+        padding: 25px 45px;
+        font-size: large;
+}
+
+/*----------Second Section------------- */
+#sec2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        margin-bottom: 150px;
+}
+
+#sec2 h1 {
+        font-size: 56px;
+        color: #000102;
+        font-weight: bold;
+}
+
+.cardcontainer {
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr;
+        gap: 60px;
+}
+
+.card {
+        border: 0.5px solid rgba(0, 0, 0, 0.273);
+}
+
+.cardinfos {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+}
+
+.cardinfos .jobs {
+        color: #0a4ddd;
+        font-size: 12px;
+        font-weight: bold;
+}
+
+.cardinfos .speakers {
+        color: #0D1B2A;
+        font-weight: bold;
+        font-size: 20px;
+}
+
+/*-----Third Section------*/
+#sec3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+#sec3 h1 {
+        font-size: 50px;
+        font-weight: bold;
 }
