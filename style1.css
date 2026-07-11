@@ -32,7 +32,8 @@ header nav ul li a,
 #sec3 p,
 .pcardname,
 .pcardcombo,
-.pcardlist {
+.pcardlist,
+.footer2 span {
         text-decoration: none;
         color: #575757;
         font-size: 12px;
@@ -52,7 +53,7 @@ header nav ul li a,
 /*---------Hero Section------------*/
 
 #hero {
-        height: 100vh;
+        height: 790px;
         position: relative;
         margin-bottom: 60px;
 }
@@ -112,7 +113,7 @@ header nav ul li a,
         justify-content: center;
         align-items: center;
         gap: 60px;
-        margin-bottom: 150px;
+        margin-bottom: 110px;
 }
 
 #sec2 h1 {
@@ -156,7 +157,7 @@ header nav ul li a,
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 150px;
+        margin-bottom: 110px;
 }
 
 #sec3 #sec3head {
@@ -217,6 +218,7 @@ header nav ul li a,
         width: 100%;
         padding: 10px 0px;
         border-radius: 8px;
+        cursor: pointer;
 }
 
 #pbtn1 {
@@ -237,4 +239,30 @@ header nav ul li a,
         font-weight: bold;
         background-color: white;
         border: 2px solid black;
+}
+
+footer {
+        background-color: #0D1B2A;
+        padding: 10px 20px;
+}
+
+.footer1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.44);
+}
+
+
+#footerpart2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+}
+
+#footerpart2 a i {
+        text-decoration: none;
+        color: white;
 }
