@@ -156,6 +156,7 @@ header nav ul li a,
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 150px;
 }
 
 #sec3 #sec3head {
@@ -171,11 +172,13 @@ header nav ul li a,
         font-weight: bold;
 }
 
+/*-------Price Cards----------*/
+
 .pcardcontainer {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 35px;
 }
 
 .pcard {
@@ -185,8 +188,53 @@ header nav ul li a,
         display: flex;
         flex-direction: column;
         gap: 20px;
+        width: 350px;
 }
-.pcardcontainer .pcard .part1{
+
+#pcard2,
+#pcard2 ul,
+#pcard h1,
+#pcard2 span {
+        background-color: #0D1B2A;
+        color: rgba(255, 255, 255, 0.91);
+}
+
+
+.pcardcontainer .pcard .part1 {
         padding-bottom: 20px;
         border-bottom: 0.5px solid rgba(0, 0, 0, 0.135);
+}
+
+#pcard2 .part1 {
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.52);
+}
+
+.pcardcontainer .pcard .part3 {
+        padding-top: 20px;
+}
+
+.pcardcontainer .pcardbtn {
+        width: 100%;
+        padding: 10px 0px;
+        border-radius: 8px;
+}
+
+#pbtn1 {
+        font-weight: bold;
+        background-color: white;
+        color: #0a4ddd;
+        border: 2px solid #0a4ddd;
+}
+
+#pbtn2 {
+        font-weight: bold;
+        color: white;
+        border: none;
+        background-color: #0a4ddd;
+}
+
+#pbtn3 {
+        font-weight: bold;
+        background-color: white;
+        border: 2px solid black;
 }
