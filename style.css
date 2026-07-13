@@ -273,7 +273,7 @@ header nav ul li a,
         justify-content: space-between;
         border-bottom: 0.5px solid #575757;
         padding: 25px;
-        border: 1px solid #57575780;
+        border: 1px solid #57575743;
         border-radius: 8px;
 }
 
@@ -300,6 +300,10 @@ header nav ul li a,
 .eventpart ul li {
         line-height: 3;
         list-style: none;
+}
+
+.plannercontainer {
+        margin-bottom: 100px;
 }
 
 /*Footer Section*/
