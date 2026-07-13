@@ -273,7 +273,8 @@ header nav ul li a,
         justify-content: space-between;
         border-bottom: 0.5px solid #575757;
         padding: 25px;
-        border: 1px solid black;
+        border: 1px solid #57575780;
+        border-radius: 8px;
 }
 
 .datepart {
@@ -292,10 +293,11 @@ header nav ul li a,
         color: #0a4ddd;
 }
 
-#day2{
+#day2 {
         padding-right: 52px;
 }
-.eventpart ul li{
+
+.eventpart ul li {
         line-height: 3;
         list-style: none;
 }
