@@ -160,7 +160,7 @@ header nav ul li a,
 }
 
 .card {
-        border: 0.5px solid rgba(0, 0, 0, 0.135);
+        border: 1px solid rgba(0, 0, 0, 0.135);
 }
 
 .cardinfos {
@@ -183,7 +183,7 @@ header nav ul li a,
 }
 
 .card:hover {
-        border: 2px solid #286cffc3;
+        border: 1px solid #286cffc3;
         border-radius: 8px;
         transition: 0.5s;
 }
