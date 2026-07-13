@@ -18,7 +18,16 @@ header {
         justify-content: space-between;
         padding: 10px 80px;
 }
-
+.logosec{
+        display: flex;
+        gap: 15px;
+}
+.navlogo{
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        color: #0D1B2A;
+}
 header nav ul {
         list-style: none;
         display: flex;
